@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "now-sharp-example",
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node",
+      "config": { "maxLambdaSize": "30mb" }
+    }
+  ]
+}
